@@ -7,16 +7,20 @@ Ein zentraler Aspekt des Projekts war die **Erklärbarkeit der Modelle**, da die
 Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche Variablen die Kreditwürdigkeit besonders stark beeinflussen und inwiefern sich die zugrunde liegenden Modelle interpretierbar und vertrauenswürdig gestalten lassen.  
 
 ---
-### Projektdetails
-- **Data Source**: [German Credit Data](https://www.kaggle.com/datasets/mpwolke/cusersmarildownloadsgermancsv) 
-- **Modell**: Neural Network, XGBoost 
+### Projektdetails  
+
+- **Datenquelle**: [German Credit Data](https://www.kaggle.com/datasets/mpwolke/cusersmarildownloadsgermancsv)  
+- **Modelle**: Neuronales Netz (Artificial Neural Network) und XGBoost  
 - **Verwendete Tools und Bibliotheken**: Implementierung in **Python**  
   - *NumPy*  
   - *Pandas*  
-  - *sklearn.preprocessing: StandardScaler* , *sklearn.model_selection: train_test_split*, *sklearn.metrics : accuracy_score, f1_score*
+  - *sklearn.preprocessing*: *StandardScaler*  
+  - *sklearn.model_selection*: *train_test_split*  
+  - *sklearn.metrics*: *accuracy_score*, *f1_score*  
   - *matplotlib.pyplot*  
-  - *torch*
-  - *shap*
-  - *alibi.explainers: ALE*
-  - *XGBoost*
+  - *torch*  
+  - *shap*  
+  - *alibi.explainers*: *ALE*  
+  - *XGBoost*  
+
 ---
