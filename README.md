@@ -12,9 +12,11 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 - **Modell**: Neural Network, XGBoost 
 - **Verwendete Tools und Bibliotheken**: Implementierung in **Python**  
   - *NumPy*  
-  - *SciPy.integrate*  
-  - *Matplotlib.pyplot*  
-  - *mpl_toolkits.mplot3d*  
-  - *Matplotlib.animation*  
-
+  - *Pandas*  
+  - *sklearn.preprocessing: StandardScaler* , *sklearn.model_selection: train_test_split*, *sklearn.metrics : accuracy_score, f1_score*
+  - *matplotlib.pyplot*  
+  - *torch*
+  - *shap*
+  - *alibi.explainers: ALE*
+  - *XGBoost*
 ---
