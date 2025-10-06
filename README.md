@@ -29,5 +29,6 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 - **Dataset and Data Preprocessing**: Der Datensatz umfasst **1000 Beobachtungen** mit **21 Variablen**. Die meisten dieser Eingangsvariablen sind kategorial und repräsentieren unterschiedliche Zustände oder Ausprägungen einer bestimmten Eigenschaft. Der Datensatz enthält grundlegende Informationen über Kreditnehmer, wie beispielsweise **Kreditbetrag**, **Familienstand**, **Alter**, **Beschäftigungsstatus**, **Kreditzweck** sowie die Information, ob der Kreditnehmer **im Ausland beschäftigt** ist.  
 
   Die Zielvariable **Creditability** dient der Klassifikation der Kreditwürdigkeit einer Person. Ein Wert von **1** steht für *kreditwürdig* (kein Zahlungsausfall), während ein Wert von **0** *nicht kreditwürdig* bedeutet (Zahlungsausfall).  
-![](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/imbalance%20dataset.jpg?raw=true)
+
+![ ](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/imbalance%20dataset.jpg?raw=true)
 ---
