@@ -26,6 +26,6 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 ---
 ### Ergebnisseübetsicht
 
-- **Code**: 
+- **Code**: Der Python-Code zur Implementierung der Datenvorverarbeitung, des **Artificial-Neural-Network-Modells** sowie der Ergebnisinterpretation befindet sich im Jupyter Notebook *Predicting Creditworthiness.ipynb* in [meinem Repository](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness).  
 
 ---
