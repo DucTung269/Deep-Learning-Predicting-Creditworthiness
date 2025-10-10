@@ -32,6 +32,13 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 ![ ](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/imbalance%20dataset.jpg?raw=true)
 
+Wie in der Abbildung dargestellt, ist die Anzahl der **Nicht-Ausfall-Beobachtungen** deutlich höher als die der **Ausfall-Beobachtungen** (700 gegenüber 300). Um dieses **Klassenungleichgewicht** zu adressieren, wurde ein entsprechender Schritt der **Datenvorverarbeitung** implementiert.  
+
+Zur Korrektur des Ungleichgewichts wurde die Methode der **Klassen­gewichtung (Class Weights)** angewendet. Dabei erhalten Beobachtungen der Mehrheitsklasse ein geringeres Gewicht, während Beobachtungen der Minderheitsklasse stärker gewichtet werden. Auf diese Weise wird das Modell dazu veranlasst, der Minderheitsklasse während der Berechnung der Verlustfunktion mehr Aufmerksamkeit zu schenken, was zu einer ausgewogeneren Modellleistung führt.  
+
+Darüber hinaus kam während der Datenvorverarbeitung der **StandardScaler()** zum Einsatz. Dieses Verfahren standardisiert die Eingangsvariablen, indem es sie so transformiert, dass sie einen Mittelwert von 0 und eine Standardabweichung von 1 aufweisen. Durch diese **Normalisierung** befinden sich alle Merkmale auf einer vergleichbaren Skala, was **die Trainingsstabilität verbessert** und **eine Verzerrung zugunsten großskaliger Variablen verhindert**. Somit trägt die Standardisierung wesentlich dazu bei, dass alle Merkmale einen gleichberechtigten Einfluss auf die Modellvorhersage haben.  
+
+
 ![outcome](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/output.png?raw=true)
 
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
