@@ -36,6 +36,8 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 - Zur Korrektur des Ungleichgewichts wurde die Methode der **Class Weights** angewendet. Dabei erhalten Beobachtungen der Mehrheitsklasse ein geringeres Gewicht, während Beobachtungen der Minderheitsklasse stärker gewichtet werden. Auf diese Weise wird das Modell dazu veranlasst, der Minderheitsklasse während der Berechnung der Verlustfunktion mehr Aufmerksamkeit zu schenken, was zu einer ausgewogeneren Modellleistung führt.  
 
+![classweight](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/classweight.jpg?raw=true)
+
 - Darüber hinaus kam während der Datenvorverarbeitung der **StandardScaler()** zum Einsatz. Dieses Verfahren standardisiert die Eingangsvariablen, indem es sie so transformiert, dass sie einen Mittelwert von 0 und eine Standardabweichung von 1 aufweisen. Durch diese **Normalisierung** befinden sich alle Merkmale auf einer vergleichbaren Skala, was **die Trainingsstabilität verbessert** und **eine Verzerrung zugunsten großskaliger Variablen verhindert**. Somit trägt die Standardisierung wesentlich dazu bei, dass alle Merkmale einen gleichberechtigten Einfluss auf die Modellvorhersage haben.  
 
 
