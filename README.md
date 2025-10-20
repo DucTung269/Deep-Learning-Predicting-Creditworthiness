@@ -41,11 +41,11 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 - Darüber hinaus kam während der Datenvorverarbeitung der **StandardScaler()** zum Einsatz. Dieses Verfahren standardisiert die Eingangsvariablen, indem es sie so transformiert, dass sie einen Mittelwert von 0 und eine Standardabweichung von 1 aufweisen. Durch diese **Normalisierung** befinden sich alle Merkmale auf einer vergleichbaren Skala, was **die Trainingsstabilität verbessert** und **eine Verzerrung zugunsten großskaliger Variablen verhindert**. Somit trägt die Standardisierung wesentlich dazu bei, dass alle Merkmale einen gleichberechtigten Einfluss auf die Modellvorhersage haben.  
 
 
-![outcome](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/output.png?raw=true)
-
 ![ANN Code](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ANN%20Code.jpg?raw=true)
 
 ![Hyperparameters](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/Hyperparameter.jpg?raw=true)
+
+![outcome](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/output.png?raw=true)
 
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
 
