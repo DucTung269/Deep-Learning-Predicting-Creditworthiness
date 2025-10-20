@@ -43,6 +43,10 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 ![outcome](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/output.png?raw=true)
 
+![ANN Code](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ANN%20Code.jpg?raw=true)
+
+![Hyperparameters](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/Hyperparameter.jpg?raw=true)
+
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
 
 ![ALE](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainALE.png?raw=true)
