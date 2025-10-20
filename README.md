@@ -49,6 +49,10 @@ Die Eingabeschicht erhält die Eingangsmerkmale des Datensatzes und leitet sie a
 
 Die Ausgabeschicht transformiert die resultierenden Aktivierungen schließlich in das gewünschte Ausgabeformat, z. B. eine Wahrscheinlichkeit für die Klassifikation der Kreditwürdigkeit. Das neuronale Netz wurde unter Verwendung der Bibliothek **PyTorch** entwickelt und bietet eine flexible Architektur, bei der die Anzahl der Neuronen und der verdeckten Schichten variabel angepasst werden kann.  
 
+- Ein **Artificial Neural Network (ANN)** wurde in **PyTorch** implementiert, das aus einer Eingabeschicht, mehreren versteckten Schichten und einer Ausgabeschicht besteht. Die Architektur wird durch die Klasse `NeuralNetwork` definiert, welche die Parameter **input_features**, **neurons**, **hidden_layers** und **output** verwendet.  
+
+Im Konstruktor (`__init__`) werden die linearen Schichten sowie die **ReLU-Aktivierungsfunktion** initialisiert. Die Methode `forward()` beschreibt den Vorwärtsdurchlauf durch das Netzwerk, bei dem die Eingabedaten durch die einzelnen Schichten propagiert und aktiviert werden.  
+
 
 ![Hyperparameters](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/Hyperparameter.jpg?raw=true)
 
