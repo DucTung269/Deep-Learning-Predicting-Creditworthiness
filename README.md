@@ -43,16 +43,9 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 ![ANN Code](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ANN%20Code.jpg?raw=true)
 
-- Ein **künstliches neuronales Netz (Artificial Neural Network, ANN)** wurde implementiert, das aus einer **Eingabeschicht (Input Layer)**, mehreren **verdeckten Schichten (Hidden Layers)** und einer **Ausgabeschicht (Output Layer)** besteht.  
+- Ein **Artificial Neural Network (ANN)** wurde wurde implementiert, das aus einer **Eingabeschicht (Input Layer)**, mehreren **verdeckten Schichten (Hidden Layers)** und einer **Ausgabeschicht (Output Layer)** besteht.  
 
-Die Eingabeschicht erhält die Eingangsmerkmale des Datensatzes und leitet sie an die verdeckten Schichten weiter. Jede verdeckte Schicht besteht aus einer bestimmten Anzahl von **Neuronen**, die über **lineare Transformationen** (Gewichtungen und Bias) sowie die **ReLU-Aktivierungsfunktion** verarbeitet werden. Diese Aktivierungsfunktion sorgt für Nichtlinearität im Modell und ermöglicht es dem Netzwerk, komplexe Muster in den Daten zu erkennen.  
-
-Die Ausgabeschicht transformiert die resultierenden Aktivierungen schließlich in das gewünschte Ausgabeformat, z. B. eine Wahrscheinlichkeit für die Klassifikation der Kreditwürdigkeit. Das neuronale Netz wurde unter Verwendung der Bibliothek **PyTorch** entwickelt und bietet eine flexible Architektur, bei der die Anzahl der Neuronen und der verdeckten Schichten variabel angepasst werden kann.  
-
-- Ein **Artificial Neural Network (ANN)** wurde in **PyTorch** implementiert, das aus einer Eingabeschicht, mehreren versteckten Schichten und einer Ausgabeschicht besteht. Die Architektur wird durch die Klasse `NeuralNetwork` definiert, welche die Parameter **input_features**, **neurons**, **hidden_layers** und **output** verwendet.  
-
-Im Konstruktor (`__init__`) werden die linearen Schichten sowie die **ReLU-Aktivierungsfunktion** initialisiert. Die Methode `forward()` beschreibt den Vorwärtsdurchlauf durch das Netzwerk, bei dem die Eingabedaten durch die einzelnen Schichten propagiert und aktiviert werden.  
-
+- Die Eingabeschicht erhält die Eingangsmerkmale des Datensatzes und leitet sie an die verdeckten Schichten weiter. Jede verdeckte Schicht besteht aus einer bestimmten Anzahl von **Neuronen**, die über **lineare Transformationen** (Gewichtungen und Bias) sowie die **ReLU-Aktivierungsfunktion** verarbeitet werden. 
 
 ![Hyperparameters](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/Hyperparameter.jpg?raw=true)
 
