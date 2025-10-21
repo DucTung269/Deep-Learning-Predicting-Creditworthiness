@@ -49,11 +49,12 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 ![Hyperparameters](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/Hyperparameter.jpg?raw=true)
 
-- Die **Hyperparameter** des neuronalen Netzes wurden festgelegt und das Modell initialisiert. Dabei wurden die Eingabegröße, die Anzahl der Neuronen pro Schicht, die Anzahl der verdeckten Schichten sowie die Ausgabegröße definiert. Anschließend wurde das Modell mit einer **Lernrate von 0.0001** trainiert.  
+- Die **Hyperparameter** des neuronalen Netzes konnten flexibel angepasst und wurden anschließend festgelegt, um das Modell zu initialisieren. Dabei wurden die **Eingabegröße**, die **Anzahl der Neuronen pro Schicht**, die **Anzahl der verdeckten Schichten** sowie die **Ausgabegröße** definiert. Das Modell wurde mit einer **Lernrate von 0.0001** trainiert.  
 
-- Als **Verlustfunktion** kam `BCEWithLogitsLoss` unter Verwendung eines Gewichtungsfaktors (*pos_weight*) zur Behandlung unausgeglichener Klassenverteilungen zum Einsatz. Der **Adam-Optimierer** wurde zur Optimierung der Modellparameter verwendet.  
+- Als **Verlustfunktion** wurde `BCEWithLogitsLoss` verwendet, wobei ein Gewichtungsfaktor (*pos_weight*) integriert wurde, um das **Klassenungleichgewicht** im Datensatz auszugleichen. Zur Optimierung der Modellparameter kam der **Adam-Optimierer** zum Einsatz.  
 
-- Für das Training wurden **100 Epochen** und eine **Batchgröße von 128** festgelegt.  
+- Für den Trainingsprozess wurden **100 Epochen** und eine **Batchgröße von 128** verwendet.  
+
 
 
 ![outcome](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/output.png?raw=true)
