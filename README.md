@@ -59,6 +59,11 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 ![outcome](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/output.png?raw=true)
 
+- Nach **100 Epochen** konvergiert der **Loss-Wert** auf einen stabilen und niedrigen Wert von etwa **0.20**, was darauf hinweist, dass das Modell die zugrunde liegenden Muster der Daten effektiv erlernt hat. Der **gleichmäßig abfallende Verlauf** des Verlusts über die Epochen hinweg zeigt einen **gut funktionierenden Trainingsprozess**.  
+
+- Es sind **keine Anzeichen von Overfitting** erkennbar, das sich typischerweise durch einen Anstieg des Verlusts auf den Validierungsdaten nach einer bestimmten Anzahl von Epochen äußern würde. Ebenso gibt es **keine Hinweise auf Underfitting**, welches sich durch eine frühe Stagnation des Verlusts auf einem höheren Niveau bemerkbar machen würde.  
+
+
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
 
 ![ALE](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainALE.png?raw=true)
