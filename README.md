@@ -63,6 +63,7 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 - Es sind **keine Anzeichen von Overfitting** erkennbar, das sich typischerweise durch einen Anstieg des Verlusts auf den Validierungsdaten nach einer bestimmten Anzahl von Epochen äußern würde. Ebenso gibt es **keine Hinweise auf Underfitting**, welches sich durch eine frühe Stagnation des Verlusts auf einem höheren Niveau bemerkbar machen würde.  
 
+![F1](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/F1.Score.jpg?raw=true)
 
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
 
