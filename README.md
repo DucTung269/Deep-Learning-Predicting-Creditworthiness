@@ -69,6 +69,8 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 - Beim **Testdatensatz** sank die Genauigkeit leicht auf **75,5 %**, während der **F1-Score mit 80,93 %** weiterhin ein starkes Ergebnis aufweist. Dies deutet darauf hin, dass das Modell seine **Vorhersagefähigkeit auch bei unbekannten Daten beibehalten** konnte, wenngleich mit einem geringfügigen Rückgang der Gesamtgenauigkeit.  
 
+#### XGBoost
+
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
 
 ![ALE](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainALE.png?raw=true)
