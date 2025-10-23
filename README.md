@@ -65,6 +65,10 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 ![F1](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/F1.Score.jpg?raw=true)
 
+- Für den **Trainingsdatensatz** erreichte das Modell eine **Genauigkeit von 77,5 %** und einen **F1-Score von 82,92 %**. Dies zeigt, dass das Modell während der Trainingsphase sowohl in Bezug auf **Präzision** als auch **Sensitivität (Recall)** solide Leistungen erzielte.  
+
+- Beim **Testdatensatz** sank die Genauigkeit leicht auf **75,5 %**, während der **F1-Score mit 80,93 %** weiterhin ein starkes Ergebnis aufweist. Dies deutet darauf hin, dass das Modell seine **Vorhersagefähigkeit auch bei unbekannten Daten beibehalten** konnte, wenngleich mit einem geringfügigen Rückgang der Gesamtgenauigkeit.  
+
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
 
 ![ALE](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainALE.png?raw=true)
