@@ -71,6 +71,8 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 #### XGBoost
 
+![XGB](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/XGB.jpg?raw=true)
+
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
 
 ![ALE](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainALE.png?raw=true)
