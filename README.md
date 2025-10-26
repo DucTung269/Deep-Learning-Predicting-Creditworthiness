@@ -73,6 +73,13 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 ![XGB](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/XGB.jpg?raw=true)
 
+- Das **XGBoost-Modell** wurde für den **Klassifikationsfall** unter Verwendung der gleichen Trainingsdaten wie das **Artificial-Neural-Network-Modell (ANN)** eingesetzt.  
+
+- Die **Leistungsbewertung** des XGBoost-Modells zeigt, dass es ähnlich gute Ergebnisse wie das neuronale Netz erzielt hat. Auf dem **Trainingsdatensatz** erreichte das Modell eine **Genauigkeit von 78,3 %** und einen **F1-Score von 79,62 %**. Auf dem **Testdatensatz** wurden eine **Genauigkeit von 73,5 %** und ein **F1-Score von 81 %** erzielt.  
+
+- Diese Ergebnisse deuten darauf hin, dass beide Modelle eine **gute Generalisierungsfähigkeit** aufweisen, wobei sich lediglich **geringfügige Unterschiede in der Vorhersageleistung** zeigen.  
+
+
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
 
 ![ALE](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainALE.png?raw=true)
