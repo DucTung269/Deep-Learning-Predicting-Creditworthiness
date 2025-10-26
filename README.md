@@ -79,6 +79,7 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 - Diese Ergebnisse deuten darauf hin, dass beide Modelle eine **gute Generalisierungsfähigkeit** aufweisen, wobei sich lediglich **geringfügige Unterschiede in der Vorhersageleistung** zeigen.  
 
+#### Erklärbarkeit der Modellausgabe mit Shapley Additive Explanations (SHAP) und Accumulated Local Effects (ALE)  
 
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
 
