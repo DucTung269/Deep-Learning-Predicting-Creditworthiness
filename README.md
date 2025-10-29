@@ -101,8 +101,6 @@ Zur genaueren Betrachtung werden drei zentrale Merkmale hervorgehoben: **Alter (
 
 - Beim **Credit_Amount** zeigt sich eine intuitive Beziehung: Mit steigendem Kreditbetrag erhöhen sich auch die ALE-Werte, was auf ein **höheres Ausfallrisiko** hinweist. Größere Kreditsummen bedeuten eine **höhere finanzielle Belastung**, wodurch das Risiko eines Zahlungsausfalls zunimmt.  
 
-Diese Analyse verdeutlicht, dass die ALE-Methode nicht nur die Richtung, sondern auch die **Stärke und Form des Einflusses** einzelner Merkmale auf die Modellvorhersage sichtbar macht und somit die **Interpretierbarkeit des ANN-Modells** wesentlich verbessert.  
-
 
 #### XGBoost
 
@@ -122,7 +120,15 @@ Diese Analyse verdeutlicht, dass die ALE-Methode nicht nur die Richtung, sondern
 
 ![ALE XGB](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ALE%20for%20XGB.png?raw=true)
 
-In der Abbildung zeigen die Merkmale **No_of_dependents**, **Type_of_apartment**, **Foreign_Workers** und **Occupation** nur einen **geringen oder keinen erkennbaren Einfluss** auf die Modellvorhersage. Ihre **ALE-Werte bleiben über alle Merkmalsausprägungen hinweg nahezu konstant**, was darauf hindeutet, dass diese Variablen **keinen signifikanten Beitrag** zu den Entscheidungen des Modells leisten.  
+- In der Abbildung zeigen die Merkmale **No_of_dependents**, **Type_of_apartment**, **Foreign_Workers** und **Occupation** nur einen **geringen oder keinen erkennbaren Einfluss** auf die Modellvorhersage. Ihre **ALE-Werte bleiben über alle Merkmalsausprägungen hinweg nahezu konstant**, was darauf hindeutet, dass diese Variablen **keinen signifikanten Beitrag** zu den Entscheidungen des Modells leisten.  
+
+- Die **ALE-Plots des XGBoost-Modells** zeigen, dass die drei Merkmale **Alter (Age_years)**, **Kontostand (Account_Balance)** und **Kreditbetrag (Credit_Amount)** ähnliche Ergebnisse liefern wie beim **ANN-Modell**.  
+
+- Allerdings lässt sich beim Merkmal **Age_years** ein leichter Unterschied erkennen: **Personen mittleren Alters** weisen laut den ALE-Werten eine **etwas höhere Wahrscheinlichkeit auf, einen Kredit aufzunehmen**, als ältere Personen.  
+
+- Beim **Account_Balance** bleibt der Trend konsistent: Individuen mit einem **Kontostand größer als 2** zeigen ein **deutlich geringeres Ausfallrisiko**, was erneut die enge **Korrelation zwischen höherem Kontostand und finanzieller Stabilität** bestätigt.  
+
+- Ebenso zeigt das Merkmal **Credit_Amount**, dass **höhere Kreditsummen mit einem erhöhten Risiko eines Zahlungsausfalls** einhergehen — ein Ergebnis, das den allgemeinen wirtschaftlichen Erwartungen entspricht.  
 
 ---
 
