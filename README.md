@@ -91,7 +91,7 @@ Die **Dichte der Punkte entlang der x-Achse** zeigt, wie häufig bestimmte SHAP-
 
 Die Analyse der **ALE-Plots (Accumulated Local Effects)** ermöglicht ein tieferes Verständnis darüber, welche Merkmale die Vorhersagen des neuronalen Netzes beeinflussen und wie sich diese Effekte über verschiedene Merkmalsausprägungen hinweg verändern. Dadurch wird der **Entscheidungsprozess des Modells** transparenter und nachvollziehbarer.  
 
-In **Abbildung** ist zu erkennen, dass **alle Merkmale** Einfluss auf die Vorhersageergebnisse des **ANN-Modells** haben, was sich in den dargestellten **linearen oder nichtlinearen (gekrümmten) Mustern** der ALE-Werte widerspiegelt.  
+In der Abbildung ist zu erkennen, dass **alle Merkmale** Einfluss auf die Vorhersageergebnisse des **ANN-Modells** haben, was sich in den dargestellten **linearen oder nichtlinearen (gekrümmten) Mustern** der ALE-Werte widerspiegelt.  
 
 Zur genaueren Betrachtung werden drei zentrale Merkmale hervorgehoben: **Alter (Age_years)**, **Kontostand (Account_Balance)** und **Kreditbetrag (Credit_Amount)**.  
 
@@ -121,6 +121,8 @@ Diese Analyse verdeutlicht, dass die ALE-Methode nicht nur die Richtung, sondern
 #### Visuelle Erklärbarkeit der XGBoost-Modellausgabe mit Accumulated Local Effects (ALE)
 
 ![ALE XGB](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ALE%20for%20XGB.png?raw=true)
+
+In der Abbildung zeigen die Merkmale **No_of_dependents**, **Type_of_apartment**, **Foreign_Workers** und **Occupation** nur einen **geringen oder keinen erkennbaren Einfluss** auf die Modellvorhersage. Ihre **ALE-Werte bleiben über alle Merkmalsausprägungen hinweg nahezu konstant**, was darauf hindeutet, dass diese Variablen **keinen signifikanten Beitrag** zu den Entscheidungen des Modells leisten.  
 
 ---
 
