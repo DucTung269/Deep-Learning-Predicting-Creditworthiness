@@ -116,6 +116,13 @@ Zur genaueren Betrachtung werden drei zentrale Merkmale hervorgehoben: **Alter (
 
 ![SHAP XGB](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/SHAP%20for%20XGB.png?raw=true)
 
+Die Analyse ergab, dass der **Kontostand des Kreditnehmers (Account_Balance)** das **wichtigste Merkmal** im Modell darstellt. Ein höherer Kontostand trägt **positiv zur Vorhersage** bei und signalisiert eine **höhere Wahrscheinlichkeit für Kreditwürdigkeit**, während niedrige Kontostände die Vorhersage deutlich abschwächen.  
+
+An zweiter und dritter Stelle der wichtigsten Merkmale folgen der **Kreditbetrag (Credit_Amount)** und die **Kreditlaufzeit in Monaten (Duration_of_Credit_monthly)**. Beide Merkmale zeigen eine **inverse Beziehung** zur Modellvorhersage: **niedrigere Werte** sowohl beim Kreditbetrag als auch bei der Kreditlaufzeit wirken sich **positiv auf die Kreditwürdigkeit** aus und erhöhen die Wahrscheinlichkeit einer **günstigen Prognose**.  
+
+Am unteren Ende der Rangfolge befinden sich die Merkmale **Occupation (Beruf)**, **Foreign_Worker (Auslandsbeschäftigung)** und **No_of_dependents (Anzahl der Unterhaltsberechtigten)**. Diese Variablen zeigen nur einen **geringen Einfluss auf die Modellvorhersage**, was darauf hinweist, dass sie zwar im Modell enthalten sind, ihr Beitrag zum **Gesamtentscheidungsprozess** jedoch im Vergleich zu den übrigen Merkmalen **vernachlässigbar** ist.  
+
+
 #### Visuelle Erklärbarkeit der XGBoost-Modellausgabe mit Accumulated Local Effects (ALE)
 
 ![ALE XGB](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ALE%20for%20XGB.png?raw=true)
