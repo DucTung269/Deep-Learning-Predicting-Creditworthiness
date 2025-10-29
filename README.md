@@ -91,7 +91,7 @@ Die **Dichte der Punkte entlang der x-Achse** zeigt, wie häufig bestimmte SHAP-
 
 Die Analyse der **ALE-Plots (Accumulated Local Effects)** ermöglicht ein tieferes Verständnis darüber, welche Merkmale die Vorhersagen des neuronalen Netzes beeinflussen und wie sich diese Effekte über verschiedene Merkmalsausprägungen hinweg verändern. Dadurch wird der **Entscheidungsprozess des Modells** transparenter und nachvollziehbarer.  
 
-In **Abbildung 11** ist zu erkennen, dass **alle Merkmale** Einfluss auf die Vorhersageergebnisse des **ANN-Modells** haben, was sich in den dargestellten **linearen oder nichtlinearen (gekrümmten) Mustern** der ALE-Werte widerspiegelt.  
+In **Abbildung** ist zu erkennen, dass **alle Merkmale** Einfluss auf die Vorhersageergebnisse des **ANN-Modells** haben, was sich in den dargestellten **linearen oder nichtlinearen (gekrümmten) Mustern** der ALE-Werte widerspiegelt.  
 
 Zur genaueren Betrachtung werden drei zentrale Merkmale hervorgehoben: **Alter (Age_years)**, **Kontostand (Account_Balance)** und **Kreditbetrag (Credit_Amount)**.  
 
