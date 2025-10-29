@@ -87,6 +87,22 @@ Die **Dichte der Punkte entlang der x-Achse** zeigt, wie häufig bestimmte SHAP-
 
 ##### Visuelle Erklärbarkeit der ANN-Modellausgabe mit Accumulated Local Effects (ALE)
 
+![ALE](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainALE.png?raw=true)
+
+Die Analyse der **ALE-Plots (Accumulated Local Effects)** ermöglicht ein tieferes Verständnis darüber, welche Merkmale die Vorhersagen des neuronalen Netzes beeinflussen und wie sich diese Effekte über verschiedene Merkmalsausprägungen hinweg verändern. Dadurch wird der **Entscheidungsprozess des Modells** transparenter und nachvollziehbarer.  
+
+In **Abbildung 11** ist zu erkennen, dass **alle Merkmale** Einfluss auf die Vorhersageergebnisse des **ANN-Modells** haben, was sich in den dargestellten **linearen oder nichtlinearen (gekrümmten) Mustern** der ALE-Werte widerspiegelt.  
+
+Zur genaueren Betrachtung werden drei zentrale Merkmale hervorgehoben: **Alter (Age_years)**, **Kontostand (Account_Balance)** und **Kreditbetrag (Credit_Amount)**.  
+
+- Beim Merkmal **Alter** zeigen die ALE-Werte, dass **jüngere Personen** ein **höheres Risiko eines Kreditausfalls** aufweisen (negative ALE-Werte), während **mittelalte und ältere Personen** ein geringeres Risiko zeigen. Dieses Muster lässt sich durch eine häufig höhere **finanzielle Stabilität im höheren Alter** erklären.  
+
+- Für den **Kontostand** (Wertebereich 1–4) zeigen die ALE-Werte, dass Personen mit einem **Kontostand größer als 2** ein **deutlich reduziertes Ausfallrisiko** haben. Ein höherer Kontostand steht somit in starkem Zusammenhang mit **finanzieller Zuverlässigkeit**.  
+
+- Beim **Kreditbetrag** zeigt sich eine intuitive Beziehung: Mit steigendem Kreditbetrag erhöhen sich auch die ALE-Werte, was auf ein **höheres Ausfallrisiko** hinweist. Größere Kreditsummen bedeuten eine **höhere finanzielle Belastung**, wodurch das Risiko eines Zahlungsausfalls zunimmt.  
+
+Diese Analyse verdeutlicht, dass die ALE-Methode nicht nur die Richtung, sondern auch die **Stärke und Form des Einflusses** einzelner Merkmale auf die Modellvorhersage sichtbar macht und somit die **Interpretierbarkeit des ANN-Modells** wesentlich verbessert.  
+
 
 #### XGBoost
 
@@ -101,7 +117,6 @@ Die **Dichte der Punkte entlang der x-Achse** zeigt, wie häufig bestimmte SHAP-
 ##### Erklärbarkeit der XGBoost-Modellausgabe mit Shapley Additive Explanations (SHAP) 
 
 
-![ALE](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainALE.png?raw=true)
 
 
 ---
