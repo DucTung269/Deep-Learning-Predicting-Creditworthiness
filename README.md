@@ -73,16 +73,15 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
 
-Der **SHAP-Summary-Plot** zeigt, welche Merkmale den größten Einfluss auf die Modellvorhersage haben. In der linken Spalte sind alle Merkmale aufgelistet, wobei das **wichtigste Merkmal oben** steht. In diesem Fall stellt der **Kontostand (Account_Balance)** den stärksten Einflussfaktor dar, gefolgt von der **Dauer der aktuellen Beschäftigung (Length_of_current_employment)**, dem **Wert der Ersparnisse oder Aktien (Value_Savings_Stocks)** sowie dem **Zahlungsstatus vorheriger Kredite (Payment_Status_of_Previous_Credit)**. Das **Berufsfeld (Occupation)** hat hingegen den geringsten Einfluss auf die Vorhersage.  
+Der **SHAP-Summary-Plot** zeigt, welche Merkmale den größten Einfluss auf die Modellvorhersage haben. In der linken Spalte sind alle Merkmale aufgelistet, wobei das **wichtigste Merkmal oben** steht. In diesem Fall stellt **Account_Balance** den stärksten Einflussfaktor dar, gefolgt von der **Length_of_current_employment**, **Value_Savings_Stocks** sowie **Payment_Status_of_Previous_Credit**. Das **Occupation** hat hingegen den geringsten Einfluss auf die Vorhersage.  
 
 Die **x-Achse** stellt die **SHAP-Werte** dar, welche den Einfluss eines Merkmals auf die Modellvorhersage quantifizieren. Jeder Punkt im Diagramm repräsentiert eine Beobachtung im Datensatz und zeigt, ob das entsprechende Merkmal einen **positiven oder negativen Einfluss** auf die Vorhersage hatte.  
 
 Die **Farben der Punkte** geben an, ob das jeweilige Merkmal einen **hohen (rot)** oder **niedrigen (blau)** Wert aufweist.  
 - Hohe Kontostände (rote Punkte) erhöhen die Wahrscheinlichkeit einer positiven Kreditentscheidung und wirken sich somit **förderlich auf die Kreditwürdigkeit** aus.  
 - Niedrige Kontostände (blaue Punkte) verringern diese Wahrscheinlichkeit und wirken **negativ auf die Kreditwürdigkeit**.  
-Ein ähnliches Muster lässt sich bei den Merkmalen **Beschäftigungsdauer**, **Ersparnisse/Aktienwert**, **Zahlungsstatus vorheriger Kredite** und **Telefon** beobachten.  
 
-Umgekehrt zeigt sich, dass eine **geringe Anzahl bestehender Kredite bei der gleichen Bank** einen positiven Einfluss hat, während eine hohe Kreditanzahl die Wahrscheinlichkeit einer positiven Bewertung verringert.  
+Ein ähnliches Muster lässt sich bei den Merkmalen **Length of current employment**, **Value Savings Stock**, **Payment Status of Previous Credit** und **Telephone** beobachten. Umgekehrt zeigt sich, dass eine **geringe Anzahl bestehender Kredite bei der gleichen Bank** einen positiven Einfluss hat, während eine hohe Kreditanzahl die Wahrscheinlichkeit einer positiven Bewertung verringert.  
 
 Die **Dichte der Punkte entlang der x-Achse** zeigt, wie häufig bestimmte SHAP-Werte auftreten – eine hohe Dichte bedeutet, dass viele Beobachtungen einen ähnlichen Einfluss des Merkmals auf die Vorhersage aufweisen. Die **vertikale Streuung** eines Merkmals deutet auf eine **starke Wechselwirkung mit anderen Variablen** hin.  
 
@@ -97,7 +96,7 @@ Die **Dichte der Punkte entlang der x-Achse** zeigt, wie häufig bestimmte SHAP-
 
 - Diese Ergebnisse deuten darauf hin, dass beide Modelle eine **gute Generalisierungsfähigkeit** aufweisen, wobei sich lediglich **geringfügige Unterschiede in der Vorhersageleistung** zeigen.  
 
-
+##### Erklärbarkeit der XGBoost Modellausgabe mit Shapley Additive Explanations (SHAP) 
 
 
 ![ALE](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainALE.png?raw=true)
