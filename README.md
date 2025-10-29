@@ -116,8 +116,11 @@ Diese Analyse verdeutlicht, dass die ALE-Methode nicht nur die Richtung, sondern
 
 ##### Erklärbarkeit der XGBoost-Modellausgabe mit Shapley Additive Explanations (SHAP) 
 
+![SHAP XGB](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/SHAP%20for%20XGB.png?raw=true)
 
+##### Visuelle Erklärbarkeit der XGBoost-Modellausgabe mit Accumulated Local Effects (ALE)
 
+![ALE XGB](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ALE%20for%20XGB.png?raw=true)
 
 ---
 
