@@ -141,3 +141,10 @@ Zur genaueren Betrachtung werden drei zentrale Merkmale hervorgehoben: **Alter (
 
 ### Fazit  
 
+In dieser Studie wurde der Einsatz von **Künstlichen Neuronalen Netzen (Artificial Neural Networks, ANN)** und **XGBoost** zur **Vorhersage der Kreditwürdigkeit** untersucht, wobei der Schwerpunkt auf dem Vergleich ihrer **Leistungsfähigkeit und Interpretierbarkeit** lag.  
+
+Unter Anwendung moderner **Machine-Learning-Methoden** wurde der **German Credit Dataset** analysiert, die Daten wurden vorverarbeitet und die Modellparameter optimiert, um **präzise und verlässliche Vorhersagen** zu erzielen. Beide Modelle – ANN und XGBoost – zeigten anhand von Leistungskennzahlen wie **Genauigkeit (Accuracy)** und **F1-Score** eine vergleichbare Performance, was ihre **Eignung für die Bewertung von Kreditrisiken** bestätigt.  
+
+Neben der Leistungsbewertung lag ein besonderer Fokus auf der **Erklärbarkeit der Modelle**, um deren Black-Box-Charakter zu reduzieren. Hierfür wurden die **SHAP (Shapley Additive Explanations)**- und **ALE (Accumulated Local Effects)**-Methoden eingesetzt, um **Einblicke in die Merkmalsbedeutung und die Entscheidungsprozesse** der Modelle zu gewinnen. Während SHAP sowohl **globale als auch lokale Erklärungen** ermöglicht, bietet ALE eine **rechenökonomische Methode** zur Analyse der Merkmalseffekte und trägt somit zu einer **transparenten und nachvollziehbaren Modellbewertung** bei.  
+
+Die Ergebnisse dieser Arbeit unterstreichen die **Bedeutung der Integration von Erklärbarkeitsansätzen** in KI-gestützte Entscheidungsprozesse im Finanzwesen, um **Vertrauen, Nachvollziehbarkeit und regulatorische Konformität** zu fördern.  
