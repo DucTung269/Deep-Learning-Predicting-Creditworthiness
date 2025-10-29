@@ -81,7 +81,7 @@ Die **Farben der Punkte** geben an, ob das jeweilige Merkmal einen **hohen (rot)
 - Hohe Kontostände (rote Punkte) erhöhen die Wahrscheinlichkeit einer positiven Kreditentscheidung und wirken sich somit **förderlich auf die Kreditwürdigkeit** aus.  
 - Niedrige Kontostände (blaue Punkte) verringern diese Wahrscheinlichkeit und wirken **negativ auf die Kreditwürdigkeit**.  
 
-Ein ähnliches Muster lässt sich bei den Merkmalen **Length of current employment**, **Value Savings Stock**, **Payment Status of Previous Credit** und **Telephone** beobachten. Umgekehrt zeigt sich, dass eine **geringe Anzahl bestehender Kredite bei der gleichen Bank** einen positiven Einfluss hat, während eine hohe Kreditanzahl die Wahrscheinlichkeit einer positiven Bewertung verringert.  
+Ein ähnliches Muster lässt sich bei den Merkmalen **Length_of_current_employment**, **Value_Savings_Stock**, **Payment_Status_of_Previous_Credit** und **Telephone** beobachten. Umgekehrt zeigt sich, dass eine **geringe Anzahl bestehender Kredite bei der gleichen Bank** einen positiven Einfluss hat, während eine hohe Kreditanzahl die Wahrscheinlichkeit einer positiven Bewertung verringert.  
 
 Die **Dichte der Punkte entlang der x-Achse** zeigt, wie häufig bestimmte SHAP-Werte auftreten – eine hohe Dichte bedeutet, dass viele Beobachtungen einen ähnlichen Einfluss des Merkmals auf die Vorhersage aufweisen. Die **vertikale Streuung** eines Merkmals deutet auf eine **starke Wechselwirkung mit anderen Variablen** hin.  
 
@@ -95,11 +95,11 @@ In **Abbildung** ist zu erkennen, dass **alle Merkmale** Einfluss auf die Vorher
 
 Zur genaueren Betrachtung werden drei zentrale Merkmale hervorgehoben: **Alter (Age_years)**, **Kontostand (Account_Balance)** und **Kreditbetrag (Credit_Amount)**.  
 
-- Beim Merkmal **Alter** zeigen die ALE-Werte, dass **jüngere Personen** ein **höheres Risiko eines Kreditausfalls** aufweisen (negative ALE-Werte), während **mittelalte und ältere Personen** ein geringeres Risiko zeigen. Dieses Muster lässt sich durch eine häufig höhere **finanzielle Stabilität im höheren Alter** erklären.  
+- Beim Merkmal **Age_years** zeigen die ALE-Werte, dass **jüngere Personen** ein **höheres Risiko eines Kreditausfalls** aufweisen (negative ALE-Werte), während **mittelalte und ältere Personen** ein geringeres Risiko zeigen. Dieses Muster lässt sich durch eine häufig höhere **finanzielle Stabilität im höheren Alter** erklären.  
 
-- Für den **Kontostand** (Wertebereich 1–4) zeigen die ALE-Werte, dass Personen mit einem **Kontostand größer als 2** ein **deutlich reduziertes Ausfallrisiko** haben. Ein höherer Kontostand steht somit in starkem Zusammenhang mit **finanzieller Zuverlässigkeit**.  
+- Für den **Account_Balance** (Wertebereich 1–4) zeigen die ALE-Werte, dass Personen mit einem **Kontostand größer als 2** ein **deutlich reduziertes Ausfallrisiko** haben. Ein höherer Kontostand steht somit in starkem Zusammenhang mit **finanzieller Zuverlässigkeit**.  
 
-- Beim **Kreditbetrag** zeigt sich eine intuitive Beziehung: Mit steigendem Kreditbetrag erhöhen sich auch die ALE-Werte, was auf ein **höheres Ausfallrisiko** hinweist. Größere Kreditsummen bedeuten eine **höhere finanzielle Belastung**, wodurch das Risiko eines Zahlungsausfalls zunimmt.  
+- Beim **Credit_Amount** zeigt sich eine intuitive Beziehung: Mit steigendem Kreditbetrag erhöhen sich auch die ALE-Werte, was auf ein **höheres Ausfallrisiko** hinweist. Größere Kreditsummen bedeuten eine **höhere finanzielle Belastung**, wodurch das Risiko eines Zahlungsausfalls zunimmt.  
 
 Diese Analyse verdeutlicht, dass die ALE-Methode nicht nur die Richtung, sondern auch die **Stärke und Form des Einflusses** einzelner Merkmale auf die Modellvorhersage sichtbar macht und somit die **Interpretierbarkeit des ANN-Modells** wesentlich verbessert.  
 
