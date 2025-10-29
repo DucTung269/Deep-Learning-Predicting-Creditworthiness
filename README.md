@@ -85,6 +85,8 @@ Ein ähnliches Muster lässt sich bei den Merkmalen **Length of current employme
 
 Die **Dichte der Punkte entlang der x-Achse** zeigt, wie häufig bestimmte SHAP-Werte auftreten – eine hohe Dichte bedeutet, dass viele Beobachtungen einen ähnlichen Einfluss des Merkmals auf die Vorhersage aufweisen. Die **vertikale Streuung** eines Merkmals deutet auf eine **starke Wechselwirkung mit anderen Variablen** hin.  
 
+##### Visuelle Erklärbarkeit der ANN-Modellausgabe mit Accumulated Local Effects (ALE)
+
 
 #### XGBoost
 
