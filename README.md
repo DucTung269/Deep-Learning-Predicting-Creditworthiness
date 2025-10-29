@@ -139,5 +139,5 @@ Zur genaueren Betrachtung werden drei zentrale Merkmale hervorgehoben: **Alter (
 
 ---
 
-
+### Fazit  
 
