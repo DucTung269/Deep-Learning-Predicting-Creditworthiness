@@ -69,7 +69,7 @@ Durch den Vergleich der beiden Erklärbarkeitsansätze wurde untersucht, welche 
 
 - Beim **Testdatensatz** sank die Genauigkeit leicht auf **75,5 %**, während der **F1-Score mit 80,93 %** weiterhin ein starkes Ergebnis aufweist. Dies deutet darauf hin, dass das Modell seine **Vorhersagefähigkeit auch bei unbekannten Daten beibehalten** konnte, wenngleich mit einem geringfügigen Rückgang der Gesamtgenauigkeit.  
 
-##### Erklärbarkeit der ANN-Modellausgabe mit Shapley Additive Explanations (SHAP) 
+#### Erklärbarkeit der ANN-Modellausgabe mit Shapley Additive Explanations (SHAP) 
 
 ![Shap](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainShap.png?raw=true)
 
@@ -85,7 +85,7 @@ Ein ähnliches Muster lässt sich bei den Merkmalen **Length_of_current_employme
 
 Die **Dichte der Punkte entlang der x-Achse** zeigt, wie häufig bestimmte SHAP-Werte auftreten – eine hohe Dichte bedeutet, dass viele Beobachtungen einen ähnlichen Einfluss des Merkmals auf die Vorhersage aufweisen. Die **vertikale Streuung** eines Merkmals deutet auf eine **starke Wechselwirkung mit anderen Variablen** hin.  
 
-##### Visuelle Erklärbarkeit der ANN-Modellausgabe mit Accumulated Local Effects (ALE)
+#### Visuelle Erklärbarkeit der ANN-Modellausgabe mit Accumulated Local Effects (ALE)
 
 ![ALE](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ExplainALE.png?raw=true)
 
@@ -114,11 +114,11 @@ Diese Analyse verdeutlicht, dass die ALE-Methode nicht nur die Richtung, sondern
 
 - Diese Ergebnisse deuten darauf hin, dass beide Modelle eine **gute Generalisierungsfähigkeit** aufweisen, wobei sich lediglich **geringfügige Unterschiede in der Vorhersageleistung** zeigen.  
 
-##### Erklärbarkeit der XGBoost-Modellausgabe mit Shapley Additive Explanations (SHAP) 
+#### Erklärbarkeit der XGBoost-Modellausgabe mit Shapley Additive Explanations (SHAP) 
 
 ![SHAP XGB](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/SHAP%20for%20XGB.png?raw=true)
 
-##### Visuelle Erklärbarkeit der XGBoost-Modellausgabe mit Accumulated Local Effects (ALE)
+#### Visuelle Erklärbarkeit der XGBoost-Modellausgabe mit Accumulated Local Effects (ALE)
 
 ![ALE XGB](https://github.com/DucTung269/Deep-Learning-Predicting-Creditworthiness/blob/main/images/ALE%20for%20XGB.png?raw=true)
 
